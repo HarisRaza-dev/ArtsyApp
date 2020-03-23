@@ -1,0 +1,9 @@
+query GetArtworksQuery {
+    artworks {
+        id
+        title
+        price
+        artist_names
+        imageUrl
+    }
+}
